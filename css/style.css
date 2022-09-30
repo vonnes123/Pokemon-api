@@ -1,0 +1,13 @@
+nav{
+    height: 3.6rem;
+    background-color: black;
+    width: 100%;
+}
+.hero-box{
+    height: 500px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FEF2DB;
+}
