@@ -4,18 +4,16 @@
 h1,h2,h3,h4,h5{
     font-family: 'Open Sans', sans-serif;
 }
-nav{
-    height: 3.6rem;
-    background-color: black;
-    width: 100%;
-}
 .hero-box{
     height: 500px;
+    background-color: #FEF2DB;
+}
+.hero-img{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #FEF2DB;
+    height: 70%;
 }
 h1{
     text-align: center;
@@ -34,9 +32,21 @@ p{
     font-size: 1rem;
     margin-top: 10px;
 }
+.hero-box h1{
+    align-items: center;
+    height: 15%;
+    padding: 0;
+}
+.upper-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 main{
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 article{
     width: 90%;
@@ -69,4 +79,22 @@ img{
 }
 #pokemon1{
     background-image: url();
+}
+@media (min-width: 768px) {
+  article{
+    width: 45%;
+  }
+}
+@media (min-width: 1024px) {
+  article{
+    width: 30%;
+  }
+}
+@media (min-width: 1920px) {
+  article{
+    width: 23%;
+  }
+  main{
+    width: 1920px;
+  }
 }
