@@ -25,3 +25,7 @@ function getAPI(pokemonNum){
 
     });
 }
+
+function refreshPage() {
+  window.location.reload();
+} 
